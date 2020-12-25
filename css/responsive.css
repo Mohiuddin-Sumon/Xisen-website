@@ -1,0 +1,110 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop ( LG ) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.access-img img {
+    margin-left: 0;
+}
+.testimonial-img img {
+	margin-left: 0;
+}
+
+
+}
+
+ 
+/* Tablet desktop ( MD ) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-transparent {
+    padding: 20px 0;
+}
+.mean-container a.meanmenu-reveal {
+	margin-top: -22px;
+}
+.slider-text {
+	margin-bottom: 25px;
+}
+.access-img img {
+	margin-left: 0;
+	max-width: 100%;
+}
+.access-img-2 img {
+    margin-right: 0;
+	max-width: 100%;
+}
+.testimonial-img img {
+	margin-left: 0;
+	max-width: 100%;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .header-transparent {
+        padding: 20px 0;
+    }
+    .mean-container a.meanmenu-reveal {
+        margin-top: -22px;
+    }
+    .slider-text {
+        margin-bottom: 25px;
+    }
+    .access-img img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .access-img-2 img {
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .testimonial-img img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .slider-text h2 {
+        font-size: 35px;
+        margin-bottom: 37px;
+        font-weight: 700;
+    }
+    .slider-img img {
+        max-width: 100%;
+    }
+    .slider-text {
+        padding-top: 0;
+    }
+    .slider-height {
+        min-height: 900px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .access-text h3 {
+        font-size: 32px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+    .newsletter input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .newsletter button {
+        float: left;
+    }
+    .footer-menu ul li {
+        margin-left: 0;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
